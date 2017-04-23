@@ -1,0 +1,26 @@
+.container-fluid {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg);
+    .content-wrapper {
+        width: 40%;
+        margin-left: 12%;
+        margin-top: 8%;
+
+        h1 {
+            color: white;
+        }
+
+        button{
+            border-radius: 25px;
+            border:0;
+            color:white;
+            font-weight: 500;
+            padding:10px;
+            background-color: purple;
+        }
+        p{
+            color:white;
+        }
+    }
+}

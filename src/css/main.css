@@ -1,0 +1,19 @@
+.container-fluid {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url(http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg); }
+  .container-fluid .content-wrapper {
+    width: 40%;
+    margin-left: 12%;
+    margin-top: 8%; }
+    .container-fluid .content-wrapper h1 {
+      color: pink; }
+    .container-fluid .content-wrapper button {
+      border-radius: 25px;
+      border: 0;
+      color: white;
+      font-weight: 500;
+      padding: 10px;
+      background-color: purple; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIvY3NzL21haW4uY3NzIiwic291cmNlUm9vdCI6IiJ9*/
