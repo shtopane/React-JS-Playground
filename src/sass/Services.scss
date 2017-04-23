@@ -1,0 +1,37 @@
+.service-conteiner {
+    background-color: #2E3B4E;
+    color: white;
+    height: 510px;
+    margin-left: 0px;
+    margin-right: 0px;
+    .row {
+        margin-left: 5.2%;
+        margin-right: 5.2%;
+    }
+    .upper-articles {
+        margin-top: 7.42%;
+    }
+    .lower-articles {
+        margin-bottom: 6.2%;
+    }
+    h4 {
+        text-transform: uppercase;
+        margin-bottom: 2%;
+    }
+    p {
+        font-family: 'Open Sans';
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+
+.round {
+    border-radius: 80%;
+    position: relative;
+    width: 10%;
+    height: 13%;
+    background-color: #2E3B4E;
+    margin: 0 auto;
+    bottom: 35px;
+    z-index:1;
+}

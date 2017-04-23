@@ -1,5 +1,72 @@
+@import "./variables";
+
+nav {
+    height: 12%;
+    padding-bottom: 0 !important;
+    background-color: transparent;
+    border-bottom: 1px solid $nav-border;
+}
+
+#search {
+    border-radius: 25px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 0.8125rem;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 0.8125rem;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 0.8125rem;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 0.8125rem;
+}
+
 .search-icon {
+    color: $light-gray;
     position: relative;
     right: 35px;
     margin-bottom: 5px;
+}
+
+.logo {
+    strong {
+        color: $pink;
+        font-size: 1.4rem;
+    }
+    color: $white !important;
+    margin-left: 15%;
+    font-size:0.7rem;
+}
+
+#navbarSupportedContent {
+    height: 100%;
+    ul {
+        margin-top: 3%;
+        li {
+            &:active a {
+                border-bottom: 1px solid white;
+            }
+            a {
+                color: $white;
+                height: 100%;
+                padding-bottom: 0;
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+        }
+    }
+}
+
+.search-wrapper {
+    margin-top: 3%;
 }

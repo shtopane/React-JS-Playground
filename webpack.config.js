@@ -29,5 +29,8 @@ module.exports = {
         path: __dirname + "/src/",
         filename: "index.min.js"
     },
-    plugins:[new ExtractTextPlugin({filename:'/css/main.css', allChunks:true})]
+    plugins:[
+        new ExtractTextPlugin({filename:'/css/main.css', allChunks:true}),
+        new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false })
+        ]
 };

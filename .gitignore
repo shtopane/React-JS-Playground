@@ -27,6 +27,7 @@ coverage
 build/Release
 
 # Dependency directories
+.sass_cache
 node_modules
 jspm_packages
 

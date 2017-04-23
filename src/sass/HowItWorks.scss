@@ -1,0 +1,44 @@
+@import "./variables";
+@import "./common-mixin";
+.main-background {
+    height: 535px;
+    background: url("http://s1.1zoom.me/big0/869/426645-Kycb.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.secondary-background {
+    background-color: $dark-pink;
+    opacity: 0.6;
+    height: 100%;
+}
+
+.content {
+    color: white;
+    position: relative;
+    bottom: 70%;
+    width: 50%;
+    margin: 0 auto;
+    p {
+        text-align: center;
+        font-size: 36px;
+    }
+    span {
+        display: block;
+        text-align: center;
+    }
+
+    .btn-wrapper{
+        margin-top:2%;
+    }
+
+    button {
+        @include rounded-btn-style();
+        color: $dark-pink;
+        display: block;
+        margin: auto;
+        background-color: white;
+    }
+}

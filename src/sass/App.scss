@@ -1,26 +1,47 @@
+@import "./variables";
+@import "./common-mixin";
+
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container-fluid {
-    height: 500px;
-    background-repeat: no-repeat;
-    background-image: url(http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg);
+    padding: 0;
+    height: 886px;
+    background: url(http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     .content-wrapper {
         width: 40%;
-        margin-left: 12%;
-        margin-top: 8%;
-
+        margin-left: 15%;
+        margin-top: 16%;
         h1 {
             color: white;
+            line-height: 1.5;
+            margin-bottom: 5%;
+            text-align: right;
         }
-
-        button{
-            border-radius: 25px;
-            border:0;
-            color:white;
-            font-weight: 500;
-            padding:10px;
-            background-color: purple;
+        button {
+            @include rounded-btn-style();
+            float: right;
+            clear: right;
+            color: white;
+            background-color: $button;
         }
-        p{
-            color:white;
+        span {
+            color: $light-gray;
+            margin-top: 2%;
+            float: right;
+            clear: right;
+            font-size: 0.83rem;
         }
     }
+}
+
+a:hover {
+    opacity: 0.65;
 }
