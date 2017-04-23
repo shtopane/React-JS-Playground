@@ -1,2 +1,2 @@
 # React-JS-Playground
-# Slicing PSD using ReactJS
+### Slicing PSD using ReactJS
