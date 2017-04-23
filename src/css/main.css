@@ -1,19 +1,169 @@
+nav {
+  height: 12%;
+  padding-bottom: 0 !important;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+#search {
+  border-radius: 25px; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 0.8125rem; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 0.8125rem; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 0.8125rem; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 0.8125rem; }
+
+.search-icon {
+  color: #b6b6b6;
+  position: relative;
+  right: 35px;
+  margin-bottom: 5px; }
+
+.logo {
+  color: #ffffff !important;
+  margin-left: 15%;
+  font-size: 0.7rem; }
+  .logo strong {
+    color: #e7526b;
+    font-size: 1.4rem; }
+
+#navbarSupportedContent {
+  height: 100%; }
+  #navbarSupportedContent ul {
+    margin-top: 3%; }
+    #navbarSupportedContent ul li:active a {
+      border-bottom: 1px solid white; }
+    #navbarSupportedContent ul li a {
+      color: #ffffff;
+      height: 100%;
+      padding-bottom: 0;
+      padding-left: 16px;
+      padding-right: 16px; }
+
+.search-wrapper {
+  margin-top: 3%; }
+.service-conteiner {
+  background-color: #2E3B4E;
+  color: white;
+  height: 510px;
+  margin-left: 0px;
+  margin-right: 0px; }
+  .service-conteiner .row {
+    margin-left: 5.2%;
+    margin-right: 5.2%; }
+  .service-conteiner .upper-articles {
+    margin-top: 7.42%; }
+  .service-conteiner .lower-articles {
+    margin-bottom: 6.2%; }
+  .service-conteiner h4 {
+    text-transform: uppercase;
+    margin-bottom: 2%; }
+  .service-conteiner p {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-align: justify; }
+
+.round {
+  border-radius: 80%;
+  position: relative;
+  width: 10%;
+  height: 13%;
+  background-color: #2E3B4E;
+  margin: 0 auto;
+  bottom: 35px;
+  z-index: 1; }
+.main-background {
+  height: 535px;
+  background: url("http://s1.1zoom.me/big0/869/426645-Kycb.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.secondary-background {
+  background-color: #d54c63;
+  opacity: 0.6;
+  height: 100%; }
+
+.content {
+  color: white;
+  position: relative;
+  bottom: 70%;
+  width: 50%;
+  margin: 0 auto; }
+  .content p {
+    text-align: center;
+    font-size: 36px; }
+  .content span {
+    display: block;
+    text-align: center; }
+  .content .btn-wrapper {
+    margin-top: 2%; }
+  .content button {
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px 60px 15px 60px;
+    border: 0;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    color: #d54c63;
+    display: block;
+    margin: auto;
+    background-color: white; }
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
 .container-fluid {
-  height: 500px;
-  background-repeat: no-repeat;
-  background-image: url(http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg); }
+  padding: 0;
+  height: 886px;
+  background: url(http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
   .container-fluid .content-wrapper {
     width: 40%;
-    margin-left: 12%;
-    margin-top: 8%; }
+    margin-left: 15%;
+    margin-top: 16%; }
     .container-fluid .content-wrapper h1 {
-      color: pink; }
-    .container-fluid .content-wrapper button {
-      border-radius: 25px;
-      border: 0;
       color: white;
-      font-weight: 500;
-      padding: 10px;
-      background-color: purple; }
+      line-height: 1.5;
+      margin-bottom: 5%;
+      text-align: right; }
+    .container-fluid .content-wrapper button {
+      cursor: pointer;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      text-align: center;
+      border-radius: 25px;
+      padding: 15px 60px 15px 60px;
+      border: 0;
+      box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+      float: right;
+      clear: right;
+      color: white;
+      background-color: #8824cd; }
+    .container-fluid .content-wrapper span {
+      color: #b6b6b6;
+      margin-top: 2%;
+      float: right;
+      clear: right;
+      font-size: 0.83rem; }
+
+a:hover {
+  opacity: 0.65; }
 
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIvY3NzL21haW4uY3NzIiwic291cmNlUm9vdCI6IiJ9*/
