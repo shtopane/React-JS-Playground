@@ -4,7 +4,7 @@ import "../sass/NavBar.scss";
 export default class NavBar extends React.Component{
     render(){
         return (
-            <nav class="navbar navbar-toggleable-md navbar-light sticky-top">
+            <nav class="navbar navbar-toggleable-md navbar-light">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

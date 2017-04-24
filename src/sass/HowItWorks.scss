@@ -1,12 +1,9 @@
 @import "./variables";
 @import "./common-mixin";
+
 .main-background {
     height: 535px;
-    background: url("http://s1.1zoom.me/big0/869/426645-Kycb.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    @include background-image("http://s1.1zoom.me/big0/869/426645-Kycb.jpg");
 }
 
 .secondary-background {

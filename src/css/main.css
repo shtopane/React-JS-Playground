@@ -74,7 +74,7 @@ nav {
     text-align: justify; }
 
 .round {
-  border-radius: 80%;
+  border-radius: 98%;
   position: relative;
   width: 10%;
   height: 13%;
@@ -122,14 +122,58 @@ nav {
     display: block;
     margin: auto;
     background-color: white; }
+.about-wrapper {
+  height: 498px; }
+
+.image {
+  background: url("/assets/images/writing.jpg") no-repeat;
+  background-size: cover; }
+
+.text-wrapper {
+  margin: auto; }
+  .text-wrapper h4,
+  .text-wrapper p,
+  .text-wrapper small {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #3a4d60;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+.background {
+  width: 100%;
+  height: 550px;
+  background: url("http://scerbos.com/i/2017/03/forest-black-and-white-wallpapers-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.second-background {
+  background-color: #8824cd;
+  width: 100%;
+  height: 456px;
+  opacity: 0.6;
+  position: relative;
+  top: 95px; }
+
+.explore-content {
+  position: relative;
+  bottom: 250px; }
+html {
+  overflow-x: hidden; }
+
 body {
   height: 100%;
   font-family: 'Open Sans', sans-serif; }
 
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase; }
+
 .container-fluid {
   padding: 0;
   height: 886px;
-  background: url(http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg) no-repeat center center fixed;
+  background: url("http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

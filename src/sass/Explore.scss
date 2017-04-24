@@ -1,0 +1,21 @@
+@import "./common-mixin";
+@import "./variables";
+.background {
+    width: 100%;
+    height: 550px;
+    @include background-image("http://scerbos.com/i/2017/03/forest-black-and-white-wallpapers-background.jpg");
+}
+
+.second-background {
+    background-color: $purple;
+    width: 100%;
+    height: 456px;
+    opacity: 0.6;
+    position: relative;
+    top: 95px;
+}
+
+.explore-content {
+    position: relative;
+    bottom: 250px;
+}
