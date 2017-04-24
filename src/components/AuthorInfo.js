@@ -10,7 +10,7 @@ export default class AuthorInfo extends React.Component {
                     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
                     <div class="row">
                         <div class="rounded-img col-md-1"></div>
-                        <p class="col-md-11">Author name. Totaly awesome.</p>
+                        <p class="col-md-11">Author name. Totally awesome.</p>
                     </div>
 
                 </div>
