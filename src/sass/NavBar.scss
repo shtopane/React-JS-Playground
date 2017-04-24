@@ -53,6 +53,9 @@ nav {
     ul {
         margin-top: 3%;
         li {
+            &:last-of-type{
+                margin-right: 10px;
+            }
             &:active a {
                 border-bottom: 1px solid white;
             }

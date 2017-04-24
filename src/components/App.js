@@ -17,7 +17,7 @@ export default class App extends React.Component {
                 <div class="container-fluid">
                     <NavBar />
                     <div class="content-wrapper">
-                        <h1>Useless website to show that i understand React</h1>
+                        <h1>Some very nice and shiny header. I need it to be longer.</h1>
                         <button class="rounded-btn">Get Started Today</button>
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
                     </div>
