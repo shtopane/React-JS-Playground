@@ -1,26 +1,34 @@
 @import "./variables";
 @import "./common-mixin";
-html{
+html {
     overflow-x: hidden;
 }
+
 body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-transform: uppercase;
 }
+
 .container-fluid {
     padding: 0;
     height: 886px;
     @include background-image("http://www.wickedsa.com/i/2017/03/alaska-night-wallpapers-hd.jpg");
-
     .content-wrapper {
         width: 40%;
         margin-left: 15%;
         margin-top: 16%;
         h1 {
             color: white;
+            text-transform: none;
             line-height: 1.5;
             margin-bottom: 5%;
             text-align: right;
@@ -31,6 +39,9 @@ h1,h2,h3,h4,h5,h6{
             clear: right;
             color: white;
             background-color: $purple;
+            &:hover {
+               text-decoration: underline;
+            }
         }
         span {
             color: $light-gray;

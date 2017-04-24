@@ -1,6 +1,5 @@
 @import "./common-mixin";
 @import "./variables";
-
 .about-wrapper {
     height: 498px;
 }
@@ -12,14 +11,21 @@
 
 .text-wrapper {
     margin: auto;
-    h4,
+    h3,
     p,
     small {
         display: block;
         margin-left: 100px;
         margin-right: 100px;
-        color:$dark-blue;
-        margin-top:30px;
+        color: $dark-blue;
+    }
+    h3 {
+        margin-bottom:0;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    p{
+        margin-top:10px;
         margin-bottom: 30px;
     }
 }

@@ -37,5 +37,8 @@
         display: block;
         margin: auto;
         background-color: white;
+        &:hover{
+            text-decoration:underline;
+        }
     }
 }

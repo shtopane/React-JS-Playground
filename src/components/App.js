@@ -4,6 +4,10 @@ import Services from "./Services";
 import HowItWorks from "./HowItWorks";
 import About from "./About";
 import Explore from "./Explore";
+import InfoPanel from "./InfoPanel";
+import AuthorInfo from "./AuthorInfo";
+import Contact from "./Contact";
+import Footer from "./Footer";
 import "../sass/App.scss";
 
 export default class App extends React.Component {
@@ -22,6 +26,10 @@ export default class App extends React.Component {
                 <HowItWorks />
                 <About />
                 <Explore />
+                <AuthorInfo />
+                <InfoPanel />
+                <Contact />
+                <Footer />
             </div>
            
             

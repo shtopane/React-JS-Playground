@@ -4,7 +4,7 @@ import "../sass/Services.scss";
 export default class Services extends React.Component {
     render() {
         return (
-        <div class="row service-conteiner">
+        <div class="row service-container">
             <div class="row upper-articles">
                 <div class="col-md-6">
                     <h4>Some Heading</h4>
